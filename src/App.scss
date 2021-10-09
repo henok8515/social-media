@@ -1,0 +1,11 @@
+.app {
+  display: flex;
+  justify-content: space-around;
+  height: 100vh;
+  flex-wrap: wrap;
+  flex: 4;
+  margin: 20px 20px;
+  font-family: "Roboto", sans-serif;
+  overflow-y: hidden;
+  text-transform: capitalize;
+}
