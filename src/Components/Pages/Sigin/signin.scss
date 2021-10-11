@@ -1,0 +1,102 @@
+@import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
+.container {
+  align-self: center;
+  height: 100vh;
+  border-radius: 10px;
+  width: 80vw;
+  background-size: cover;
+  background-image: url("./richard-horvath-RAZU_R66vUc-unsplash.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .signin-container {
+    height: 90vh;
+    width: 90vw;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .signin-left {
+      flex-direction: column;
+
+      height: 80%;
+      width: 30%;
+      color: #222222;
+      border-radius: 10px 0 0px 10px;
+      background-color: transparent;
+      background-color: #ef476ec4;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+      display: flex;
+      .circle {
+        background-color: rgba(212, 131, 9, 0.226);
+        background-image: url("./—Pngtree—cartoon\ space\ astronaut\ element_4261616.png");
+        background-size: cover;
+        height: 300px;
+        width: 300px;
+
+        border-radius: 50%;
+      }
+    }
+    .signin-right {
+      justify-content: center;
+      height: 80%;
+      border-radius: 0px 10px 10px 0px;
+      width: 40%;
+      background-color: #073b4cc9;
+      color: #f8f1ff;
+      display: flex;
+      align-items: flex-end;
+      form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 10px;
+        a {
+          text-decoration: none;
+          color: white;
+        }
+        input {
+          align-self: center;
+          display: flex;
+          height: 30px;
+          margin-top: 10px;
+          border-radius: 10px;
+          width: 300px;
+          font-family: FontAwesome;
+        }
+        .login-btn {
+          background-color: #31081f;
+          color: #dce0d9;
+          font-size: 20px;
+        }
+        h4 {
+          font-size: 12px;
+          margin-left: 50px;
+        }
+        button {
+          color: #f8f1ff;
+          height: 30px;
+          width: 100%;
+          background-color: #1b998b;
+          border: none;
+          border-radius: 10px;
+          margin-top: 10px;
+          &:hover {
+            background-color: #0b132b;
+          }
+        }
+        .buttons {
+          display: flex;
+          width: 100%;
+          justify-content: space-between;
+          align-items: center;
+        }
+      }
+    }
+  }
+}

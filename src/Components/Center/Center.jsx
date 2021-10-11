@@ -32,10 +32,10 @@ function Center() {
     <div className="center">
       <div className="center-first">
         <input placeholder="search" />
-        <p>hello</p>
+        <h4>Hy Henok</h4>
       </div>
       <div className="center-second">
-        <h2>trending</h2>{" "}
+        <h2>trending post today</h2>{" "}
         <div>
           {trending.map((trend) => (
             <img alt="" src={trend.img} />
@@ -49,7 +49,7 @@ function Center() {
             <img alt="" src={data.img} />
           ))}
         </div>
-        <div className=" center-right">right</div>
+        <div className=" center-right"></div>
       </div>
     </div>
   );
